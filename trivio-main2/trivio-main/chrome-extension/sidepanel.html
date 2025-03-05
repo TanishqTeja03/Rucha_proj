@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <title class="hello">Trivio</title>
+  <div class="logo">
+    <img src="https://i.postimg.cc/CKf2zmXb/TRIVIO-removebg-preview-2.png" alt="Logo" />
+</div>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .logo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+    .input-container {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .answer-button {
+      background-color: #f3f9ff;
+      color: rgb(0, 0, 0);
+      border:6cap;
+      border-color: black;
+      cursor: pointer;
+      width: 100%;
+      font-size: 0.55cm;
+    }
+    .answer-button:hover{
+      background-color: #f2f2f2;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="background-color:powderblue;">
+  <!-- <h1>TRIVIO</h1> -->
+  <div class="btn-div">
+  </div>
+  <div class="quiz-container">
+    <h1 id="question">Waiting for next question...</h1>
+    <br><br>
+      <button class="answer-button" id="answer-a" style="display: none;">OPTION A</button><br><br><br>
+      <button class="answer-button" id="answer-b" style="display: none;">OPTION B</button><br><br><br>
+      <button class="answer-button" id="answer-c" style="display: none;">OPTION C</button><br><br><br>
+      <button class="answer-button" id="answer-d" style="display: none;">OPTION D</button><br><br>
+      <button class="answer-button" id="continue" style="display: none;">Continue...</button>
+  </div>
+  </div>
+
+
+  <script src="sidepanel.js"></script>
+   
+</body>
+
+</html>
